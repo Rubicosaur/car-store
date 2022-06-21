@@ -6,8 +6,9 @@ type Vehicle interface {
 }
 
 type Car struct {
-	make    string
-	model   string
-	color   string
-	mileage float64
+	make     string
+	model    string
+	color    string
+	mileage  float64
+	fuelTank float64
 }
